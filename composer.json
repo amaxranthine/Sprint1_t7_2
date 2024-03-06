@@ -1,0 +1,18 @@
+{
+    "name": "laura/tema7_2",
+    "require-dev": {
+        "phpunit/phpunit": "^10.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Laura\\Tema72\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Laura",
+            "email": "amaxranthine1995@gmail.com"
+        }
+    ],
+    "require": {}
+}
