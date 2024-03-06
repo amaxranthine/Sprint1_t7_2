@@ -5,7 +5,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Laura\\Tema72\\": "src/"
+            "Laura\\Tema72\\": ""
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+        "Laura\\Tests\\": "Tests/"
         }
     },
     "authors": [
@@ -14,5 +19,10 @@
             "email": "amaxranthine1995@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "phpunit/phpunit": "^10.5"
+    },
+    "scripts": {
+        "test": "phpunit"
+        }
 }

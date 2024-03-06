@@ -1,16 +1,5 @@
 <?php
-class Calificacio {
-    public function donarResultat (int $nota) {
-        if ($nota >= 60) {
-            $resp = "Primera Divisió";
-        } else if ($nota >= 45 && $nota <= 59) {
-            $resp = "Segona Divisió";
-        } else if ($nota >= 33 && $nota <= 44) {
-            $resp = "   Tercera Divisió";
-        } else if ($nota <= 32) {
-            $resp = "Reprovat";
-        }
-        echo $resp;
-    }
-}
+require_once("Ex2_exNotes.php");
+use PHPUnit\Framework\TestCase;
+class Ex2_exNotesTest extends TestCase{}
 ?>
