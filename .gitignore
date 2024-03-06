@@ -1,1 +1,4 @@
 /vendor/
+# Ignorar archivos generados por el sistema operativo
+.DS_Store
+Thumbs.db

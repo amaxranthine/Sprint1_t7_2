@@ -13,4 +13,5 @@ class Calificacio {
         echo $resp;
     }
 }
+
 ?>
