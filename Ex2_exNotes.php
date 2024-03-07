@@ -1,17 +1,17 @@
 <?php
 class Calificacio {
-    public function donarResultat (int $nota) {
+    public function donarResultat(int $nota): string {
         if ($nota >= 60) {
-            $resp = "Primera Divisió";
+            return "Primera Divisió";
         } else if ($nota >= 45 && $nota <= 59) {
-            $resp = "Segona Divisió";
+            return "Segona Divisió";
         } else if ($nota >= 33 && $nota <= 44) {
-            $resp = "   Tercera Divisió";
+            return "Tercera Divisió";
         } else if ($nota <= 32) {
-            $resp = "Reprovat";
+            return "Reprovat";
         }
-        echo $resp;
     }
 }
+
 
 ?>

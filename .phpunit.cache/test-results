@@ -1,1 +1,1 @@
-{"version":1,"defects":{"Ex2_exNotesTest::testPrimeraDiv":8,"Ex2_exNotesTest::testDonarResultatMajor60":5},"times":{"Ex2_exNotesTest::testPrimeraDiv":0.009,"Ex2_exNotesTest::testDonarResultatMajor60":0.003}}
+{"version":1,"defects":{"Ex2_exNotesTest::testPrimeraDiv":8,"Ex2_exNotesTest::testDonarResultatMajor60":5,"NotaTest::testPrimeraDivisio":7},"times":{"Ex2_exNotesTest::testPrimeraDiv":0.009,"Ex2_exNotesTest::testDonarResultatMajor60":0.003,"NotaTest::testPrimeraDivisio":0.012}}
